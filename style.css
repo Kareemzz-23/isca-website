@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: ##FD7677;
+    background-color: #FFFFFF;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -35,14 +35,14 @@ nav ul li a {
 }
 
 #about h2 {
-    color: #004080;
+    color: #FD7677;
     margin-bottom: 10px;
 }
 
 #about p {
     font-size: 1rem;
     line-height: 1.5;
-    color: #333;
+    color: #f9f9f9;
     margin-bottom: 10px;
 }
 
