@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #FFFFFF;
+    background-color: #fb6969;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -25,27 +25,6 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
-#about {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-#about h2 {
-    color: #FD7677;
-    margin-bottom: 10px;
-}
-
-#about p {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #f9f9f9;
-    margin-bottom: 10px;
-}
-
 
 main {
     padding: 20px;
@@ -53,7 +32,7 @@ main {
 }
 
 footer {
-    background-color: #004080;
+    background-color: #fb6969;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -61,3 +40,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
