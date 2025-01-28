@@ -98,6 +98,7 @@ h4 {
     border-radius: 8px; 
     background-color: #f9fafc;
     text-align: left;
+    overflow: hidden; /* Ensure the container wraps around floated elements */
 }
 
 .content-image {
