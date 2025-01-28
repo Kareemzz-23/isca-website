@@ -84,45 +84,6 @@ header {
     }
 }
 
-/* Banner Styling */
-.banner {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Add separation between banner and content */
-}
-
-.banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.banner-text h2 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-.banner-text p {
-    font-size: 1.2em;
-    line-height: 1.6;
-}
-
 /* Content Section */
 h4 {
     margin: 20px 0;
