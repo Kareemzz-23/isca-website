@@ -90,13 +90,11 @@ body {
 }
 
 
-
-
 /* Content Section */
 h4 {
     margin: 20px 0;
     font-size: 2em;
-    align-content: center;
+    text-align: left;
 }
 .content-section {
     margin: 20px; 
@@ -104,9 +102,29 @@ h4 {
     border: 1px solid #ddd; 
     border-radius: 8px; 
     background-color: #f9fafc;
-    align-content: center;
+    text-align: left;
+    margin-left: 400px;
+}
+.content-image {
+    float: right;
+    width: 370px;
+    margin-left: 15px;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
 }
 
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
 footer {
     text-align: center;
